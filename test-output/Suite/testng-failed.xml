@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.capgemini.tests.TC_006">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="setUp"/>
+          <include name="setUpReport"/>
+          <include name="tearDownReport"/>
+          <include name="setUpTest"/>
+          <include name="testLogin"/>
+          <include name="testEvent"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.capgemini.tests.TC_006 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
